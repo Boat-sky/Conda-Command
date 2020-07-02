@@ -8,7 +8,7 @@ conda info --envs
 ```
 สร้าง env (ในที่นี้ตั้งชื่อว่า Boat และใช้ python เวอร์ชั่น 3.7
 ```
-conda create ---name Boat python==3.7
+conda create --name Boat python==3.7
               หรือ
 conda create -n Boat python=3.7
 ```
