@@ -12,6 +12,10 @@ conda create --name Boat python==3.7
               หรือ
 conda create -n Boat python=3.7
 ```
+สร้าง env พร้อมติดตั้ง tensorflow
+```
+conda create -n Boat tensorflow
+```   
 เรียกใช้งาน env (ในที่นี้เรียกใช้ env ที่ชื่อว่า Boat)
 ```
 conda activate Boat
