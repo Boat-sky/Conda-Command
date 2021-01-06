@@ -49,3 +49,16 @@ conda create -n py3_new --file Pac.txt
 ```
 conda remove -n py3 --all
 ```
+เพิ่ม env ernel ของ jupyter notebook
+1. อาจต้องติดตั้ง upyter notebook ก่อน (สำหรับ miniconda ต้องทำ)
+```
+conda install -y -c jupyter
+```
+2. ติดตั้ง ipykernel
+```
+conda install -y ipykernel
+```
+3. นำ env ที่เราอยู่ไปบันทึกใน kernel พร้อมตั้งชื่อที่จะแสดงบน jupyter notebook (ในที่นี้ env ชื่อว่า tf และชื่อที่แสดงใน jupyter notebook คือ tensorflow)
+```
+python -m ipykernel install --user --name tf --display-name "tensorflow"
+```
