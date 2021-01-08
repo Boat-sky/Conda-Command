@@ -52,7 +52,7 @@ conda remove -n py3 --all
 เพิ่ม env ernel ของ jupyter notebook
 1. อาจต้องติดตั้ง upyter notebook ก่อน (สำหรับ miniconda ต้องทำ)
 ```
-conda install -y -c jupyter
+conda install -y jupyter
 ```
 2. ติดตั้ง ipykernel
 ```
