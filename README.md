@@ -1,3 +1,7 @@
+อัปเดต conda
+```
+conda update -n base -c defaults conda
+```
 โดยเริ่มต้นแล้ว env ที่จะเรียกใช้คือ `base`   
 แต่เราก็สามารถ เอาออกได้โดยใช้
 ```
