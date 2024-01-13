@@ -77,3 +77,7 @@ conda install -y ipykernel
 ```
 python -m ipykernel install --user --name tf --display-name "tensorflow"
 ```
+เรียกใช้ jupyter notebook
+```
+jupyter notebook
+```
