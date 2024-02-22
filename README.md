@@ -1,3 +1,7 @@
+ติดตั้ง conda ครั้งแรกบางครั้งต้องเพิ้ม (base) เข้าไปใน command
+```
+conda init base
+```
 อัปเดต conda
 ```
 conda update -n base -c defaults conda
