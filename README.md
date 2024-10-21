@@ -1,6 +1,8 @@
 ติดตั้ง conda ครั้งแรกบางครั้งต้องเพิ้ม (base) เข้าไปใน command
 ```
 conda init base
+หรือ
+source activate base
 ```
 อัปเดต conda
 ```
