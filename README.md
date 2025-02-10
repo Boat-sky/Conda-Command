@@ -87,4 +87,8 @@ python -m ipykernel install --user --name tf --display-name "tensorflow"
 ```
 jupyter notebook
 ```
+เช็ค CUDA version ปัจจุบัน
+```
+nvcc --version
+```
 เปลี่ยน CUDA version เฉพาะ env ปัจจุบัน ดูคำสั่งติดตั้งที่ [link นี้](https://anaconda.org/nvidia/cuda-toolkit)
