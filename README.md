@@ -91,4 +91,8 @@ jupyter notebook
 ```
 nvcc --version
 ```
-เปลี่ยน CUDA version เฉพาะ env ปัจจุบัน ดูคำสั่งติดตั้งที่ [link นี้](https://anaconda.org/nvidia/cuda-toolkit)
+เปลี่ยน CUDA version เฉพาะ env ปัจจุบัน ดูคำสั่งติดตั้งที่ [link นี้](https://anaconda.org/nvidia/cuda-toolkit)   
+หรือใช้
+```
+conda install cudatoolkit=11.3 --no-update-deps
+```
